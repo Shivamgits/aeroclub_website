@@ -4,6 +4,13 @@ input {
   font-weight: 500;
   letter-spacing: 1.4px;
 }
+.cc{
+  width: 12rem;
+  height: 12rem;
+}
+.cc img{
+  height: 100%;
+}
 
 .background {
   display: flex;
@@ -219,6 +226,16 @@ input {
 }
 
 @media screen and (max-width: 600px) {
+  .app-title{
+    margin-left: 2.7rem;
+    display: flex;
+    align-items: center;
+  }
+  .app-contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .background{
    
     margin-left:-2rem;
