@@ -217,9 +217,14 @@ header::after {
   color: #fff;
   z-index: 43;
   border: 4px solid rgb(243, 239, 239);
-  padding: 0.3rem 3rem;
-  border-radius:34px;
+  padding: 0.2rem 2rem;
+  border-radius:30px;
   margin-top : 50;
+}
+.intro a:hover{
+  color: white;
+  background-color: rgb(255, 255, 255);
+  
 }
 
 
@@ -478,6 +483,12 @@ max-height: 100%;
   color:#06121c;
   font-size: medium;
 }
+.tcontainer .tcard .tcontent .contentBx p{
+  font-size: 1.2em;
+  font-weight: bold;
+  color: black;
+  margin-top: 1rem;
+}
 
 
 .contact {
@@ -694,10 +705,6 @@ footer .main-link a:hover {
 .poster img{
   width:100%;
 }
-.content .poster{
-  /* padding-left:0; */
-  /* margin-left: 0; */
-}
 }
 
 @media screen and (max-width: 800px) {
@@ -827,7 +834,7 @@ footer .main-link a:hover {
 .tcontainer .tcard .tcontent .contentBx h5
 {
  color: #6c758f;
- font-size: 1.2rem;
+ font-size: 1rem;
  font-weight: bold;
  margin-top: 0px;
  margin-bottom: 0px;
